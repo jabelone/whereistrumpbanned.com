@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar header" role="navigation" aria-label="main navigation">
       <div
-        class="navbar-item is-flex is-flex-direction-column is-align-items-center py-4 px-4"
+        class="navbar-item is-flex is-flex-direction-column is-align-items-center py-5 px-4"
       >
         <img
           src="~assets/logo.png"
@@ -10,11 +10,28 @@
         />
 
         <div class="subtitle pt-4">
-          This website tracks who is helping to make the internet great again by
+          This website tracks who is helping make the internet great again by
           <a href="https://en.wikipedia.org/wiki/Deplatforming" target="_blank"
             >deplatforming</a
           >
-          Donald Trump after he encouraged a group of domestic terrorists to
+          Donald Trump after he encouraged a group of
+          <i>domestic terrorists</i>&nbsp;
+
+          <b-tooltip position="is-top" multilined>
+            <b-icon icon="help-circle" size="is-small" />
+
+            <template v-slot:content>
+              <b>Why am I using this phrase?</b> <br />These people are not
+              protestors, they are terrorists -
+              <i
+                >a person who uses unlawful violence and intimidation,
+                especially against civilians, in the pursuit of political
+                aims</i
+              >
+              (definition from Oxford dictionary).
+            </template></b-tooltip
+          >
+          &nbsp;to
           <a
             href="https://en.wikipedia.org/wiki/2021_storming_of_the_United_States_Capitol"
             target="_blank"
@@ -30,8 +47,10 @@
 
     <div class="footer">
       <section class="section">
-        Made with ❤️ and 😜 by
-        <a target="_blank" href="https://jaimyn.dev">Jaimyn Mayer</a>.
+        Made with ❤️ and 😢 by
+        <a target="_blank" href="https://jaimyn.dev">Jaimyn Mayer</a>. Source
+        code on
+        <a href="https://github.com/jabelone/whereistrumpbanned.com">GitHub</a>.
       </section>
     </div>
   </div>
@@ -55,7 +74,7 @@ export default {
 
 <style lang="scss" scoped>
 .navbar-item img {
-  max-height: 100px;
+  max-height: 120px;
 }
 
 .navbar-item {
@@ -69,6 +88,7 @@ export default {
 .subtitle {
   color: #ffffff;
   text-align: center;
+  max-width: 1000px;
 }
 
 .subtitle a {
