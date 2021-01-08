@@ -5,10 +5,10 @@
         <p class="card-header-title is-size-3 has-text-grey">
           <img
             v-if="article.image"
-            class="logo-image p-2"
+            class="logo-image m-2"
             :src="article.image"
           />
-          {{ article.title }}
+          <span class="pl-3">{{ article.title }}</span>
         </p>
       </header>
       <div class="card-content">
