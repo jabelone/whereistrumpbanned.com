@@ -14,6 +14,27 @@ export default {
         content:
           "A simple website to track websites and services that have banned or restricted Donald Trump's accounts.",
       },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content:
+          "A simple website to track websites and services that have banned or restricted Donald Trump's accounts.",
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'Where is trump banned?',
+      },
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'Where is trump banned?',
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: '/icon.png',
+      },
     ],
     script: [
       {
