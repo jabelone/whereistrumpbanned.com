@@ -163,6 +163,17 @@ export default {
           length: 'indefinitely',
           date: 'Jan 8th, 2021',
         },
+        {
+          title: '',
+          source: 'Axios',
+          link:
+            'https://www.axios.com/reddit-bans-rdonaldtrump-subreddit-ff1da2de-37ab-49cf-afbd-2012f806959e.html',
+          image: require('@/assets/reddit.png'),
+          description:
+            'Reddit abnned the /r/donaldtrump subreddit on their platform. When asked by Axios, Reddit said that their "site-wide policies prohibit content that promotes hate, or encourages, glorifies, incites, or calls for violence against groups of people or individuals ... We have taken action to ban the community r/donaldtrump given repeated policy violations in recent days regarding the violence at the U.S. Capitol.”',
+          length: 'indefinitely',
+          date: 'Jan 8th, 2021',
+        },
       ],
       relatedArticles: [
         {
