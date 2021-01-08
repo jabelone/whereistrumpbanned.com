@@ -42,9 +42,10 @@
             Trump is no longer capable of discharging his powers and duties of
             his office, there have been
             <a
+              target="_blank"
               href="https://en.wikipedia.org/wiki/2021_efforts_to_remove_Donald_Trump_from_office"
             >
-              calls to remove him from office before his term officially ends </a
+              calls to remove him from office before his term officially ends</a
             >.
           </p>
         </div>
