@@ -38,6 +38,13 @@
             >storm the United States Capitol</a
           >.
         </div>
+        <b-button
+          tag="router-link"
+          to="/#banned-list"
+          icon-left="chevron-down"
+          type="is-primary is-light"
+          >Go To List</b-button
+        >
       </div>
     </nav>
 
@@ -45,14 +52,12 @@
       <nuxt />
     </div>
 
-    <div class="footer">
-      <section class="section">
-        Made with ❤️ and 😢 by
-        <a target="_blank" href="https://jaimyn.dev">Jaimyn Mayer</a>. Source
-        code on
-        <a href="https://github.com/jabelone/whereistrumpbanned.com">GitHub</a>.
-      </section>
-    </div>
+    <section class="section">
+      Made with ❤️ and 😢 by
+      <a target="_blank" href="https://jaimyn.dev">Jaimyn Mayer</a>. Source code
+      on
+      <a href="https://github.com/jabelone/whereistrumpbanned.com">GitHub</a>.
+    </section>
   </div>
 </template>
 
@@ -99,5 +104,11 @@ export default {
 .footer {
   width: 100%;
   text-align: center;
+}
+</style>
+
+<style>
+html {
+  scroll-behavior: smooth;
 }
 </style>

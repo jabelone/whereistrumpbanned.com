@@ -3,23 +3,21 @@
     <div class="card">
       <header class="card-header">
         <p class="card-header-title is-size-3 has-text-grey">
-          <b-icon
-            v-if="article.icon"
-            class="mr-3"
-            :icon="article.icon"
-            size="is-large"
-            type="is-primary"
-          />
           <img
             v-if="article.image"
             class="logo-image p-2"
             :src="article.image"
           />
-          {{ article.title }} &nbsp;
-          <a class="is-size-5" target="_blank" :href="article.link">(source)</a>
+          {{ article.title }}
         </p>
       </header>
       <div class="card-content">
+        <div class="content">
+          <b>Source:</b>
+          <a class="content" target="_blank" :href="article.link">{{
+            article.source
+          }}</a>
+        </div>
         <div class="content"><b>Date anounced:</b> {{ article.date }}</div>
         <div class="content"><b>Length of time:</b> {{ article.length }}</div>
         <div class="content">

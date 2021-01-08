@@ -15,6 +15,12 @@ export default {
           "A simple website to track websites and services that have banned or restricted Donald Trump's accounts.",
       },
     ],
+    script: [
+      {
+        src: 'https://static.cloudflareinsights.com/beacon.min.js',
+        'data-cf-beacon': '{"token": "901fe663794446628432e71400d3fb37"}',
+      },
+    ],
     link: [
       { rel: 'manifest', href: '/site.webmanifest' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
