@@ -164,6 +164,17 @@ export default {
           date: 'Jan 8th, 2021',
         },
         {
+          title: 'Snapchat',
+          source: 'The Hill',
+          link:
+            'https://thehill.com/policy/technology/533204-trump-suspended-indefinitely-from-snapchat',
+          image: require('@/assets/snapchat.png'),
+          description:
+            'Snapchat has suspended Donald Trump\'s snapchat account after the storming of the Capitol. While talking to The Hill, Snapchat said "the company is concerned about the rhetoric coming from Trump and the attacks on Democratic institutions."',
+          length: 'indefinitely',
+          date: 'Jan 7th, 2021',
+        },
+        {
           title: '',
           source: 'Axios',
           link:
