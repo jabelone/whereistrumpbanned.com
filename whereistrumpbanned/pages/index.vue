@@ -1,24 +1,25 @@
 <template>
-  <section class="section">
-    <div class="columns is-mobile">
-      <card title="Free" icon="github">
-        Open source on <a href="https://github.com/buefy/buefy"> GitHub </a>
-      </card>
-
-      <card title="Responsive" icon="cellphone-link">
-        <b class="has-text-grey"> Every </b> component is responsive
-      </card>
-
-      <card title="Modern" icon="alert-decagram">
-        Built with <a href="https://vuejs.org/"> Vue.js </a> and
-        <a href="http://bulma.io/"> Bulma </a>
-      </card>
-
-      <card title="Lightweight" icon="arrange-bring-to-front">
-        No other internal dependency
-      </card>
-    </div>
-  </section>
+  <div>
+    <section class="section background primary">
+      <h1 class="title">Background</h1>
+      <b-button type="is-primary">Primary</b-button>
+      <div class="columns">
+        <card title="Free" icon="github">
+          PLACEHOLDER CONTENT Open source on
+          <a href="https://github.com/jabelone"> GitHub </a>
+        </card>
+      </div>
+    </section>
+    <section class="section banned-list">
+      <h1 class="title">List of bans</h1>
+      <div class="columns">
+        <card title="Free" icon="github">
+          PLACEHOLDER CONTENT Open source on
+          <a href="https://github.com/jabelone"> GitHub </a>
+        </card>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -32,3 +33,13 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.background {
+  background-color: #a8dadc;
+}
+
+.banned-list {
+  background-color: #f1faee;
+}
+</style>
