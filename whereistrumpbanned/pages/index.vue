@@ -153,6 +153,17 @@ export default {
           date: 'Jan 7th, 2021',
         },
         {
+          title: 'Snapchat',
+          source: 'The Hill',
+          link:
+            'https://thehill.com/policy/technology/533204-trump-suspended-indefinitely-from-snapchat',
+          image: require('@/assets/snapchat.png'),
+          description:
+            'Snapchat has suspended Donald Trump\'s snapchat account after the storming of the Capitol. While talking to The Hill, Snapchat said "the company is concerned about the rhetoric coming from Trump and the attacks on Democratic institutions."',
+          length: 'indefinitely',
+          date: 'Jan 7th, 2021',
+        },
+        {
           title: '',
           source: 'The Wall Street Journal',
           link:
@@ -163,17 +174,6 @@ export default {
             'Shopify released a statement saying that “Shopify does not tolerate actions that incite violence,” and that actions by the president “violate our Acceptable Use Policy, which prohibits promotion or support of organizations, platforms or people that threaten or condone violence. As a result, we have terminated stores affiliated with President Trump.” In total, Shopify removed two onlie stores that sold MAGA merchandise that used to be available at TrumpStore.com and Shop.DonaldJTrump.com.',
           length: 'indefinitely',
           date: 'Jan 8th, 2021',
-        },
-        {
-          title: 'Snapchat',
-          source: 'The Hill',
-          link:
-            'https://thehill.com/policy/technology/533204-trump-suspended-indefinitely-from-snapchat',
-          image: require('@/assets/snapchat.png'),
-          description:
-            'Snapchat has suspended Donald Trump\'s snapchat account after the storming of the Capitol. While talking to The Hill, Snapchat said "the company is concerned about the rhetoric coming from Trump and the attacks on Democratic institutions."',
-          length: 'indefinitely',
-          date: 'Jan 7th, 2021',
         },
         {
           title: '',
@@ -229,6 +229,17 @@ export default {
           image: require('@/assets/yt.png'),
           description:
             "YouTube anounced that it was going to issue strikes to any channels posting new videos with false claims. They said “Due to the disturbing events that transpired yesterday, and given that the election results have now been certified, starting today any channels posting new videos with false claims in violation of our policies will now receive a strike.” They also removed one of Trump's videos that was posted on Wednesday as it made false claims about the results of the election.",
+          length: 'indefinitely',
+          date: 'Jan 8th, 2021',
+        },
+        {
+          title: '',
+          source: 'Axios',
+          link:
+            'https://www.axios.com/capitol-mob-parler-google-ban-826d808d-3e06-4468-a7c6-6157557818b3.html',
+          image: require('@/assets/googleplay.png'),
+          description:
+            'Google has anounced that the Parler app (an app for far-right extremists and conservatives) has been pulled from Google Play. They cited ongoing concerns about inadequate moderation procedures in place that is allowing users on the platform "to incite ongoing violence". Apple has also said if the app doesn\'t submit a "moderation improvement plan" within 24 hours they will receive a similar fate.',
           length: 'indefinitely',
           date: 'Jan 8th, 2021',
         },
