@@ -5,8 +5,9 @@
         <h1 class="title">Background</h1>
         <div>
           <p class="pb-2">
-            On January 6 2021, a group of <i>domestic terrorists</i>
+            On January 6 2021, a group of
             <b-tooltip position="is-top" multilined>
+              <i>domestic terrorists</i>
               <b-icon icon="help-circle" size="is-small" />
 
               <template v-slot:content>
@@ -112,7 +113,7 @@ export default {
           description:
             'In a statement, Twitter said "We have required the removal of three @realDonaldTrump Tweets that were posted earlier today for repeated and severe violations of our Civic Integrity Policy," and "This means that the account of @realDonaldTrump will be locked for 12 hours following the removal of these Tweets. If the Tweets are not removed, the account will remain locked." They also added that "future violations... will result in permanent suspension of the @realDonaldTrump account."',
           length:
-            'minimum of 12 hours, at least until specified tweets are removed. Account is now restored.',
+            'minimum of 12 hours, at least until specified tweets are removed. Account is now restored. Account is now permanently banned, see upate below.',
           date: 'Jan 7th, 2021 (the first)',
         },
         {
@@ -181,8 +182,19 @@ export default {
             'https://www.axios.com/reddit-bans-rdonaldtrump-subreddit-ff1da2de-37ab-49cf-afbd-2012f806959e.html',
           image: require('@/assets/reddit.png'),
           description:
-            'Reddit abnned the /r/donaldtrump subreddit on their platform. When asked by Axios, Reddit said that their "site-wide policies prohibit content that promotes hate, or encourages, glorifies, incites, or calls for violence against groups of people or individuals ... We have taken action to ban the community r/donaldtrump given repeated policy violations in recent days regarding the violence at the U.S. Capitol.”',
+            'Reddit banned the /r/donaldtrump subreddit on their platform. When asked by Axios, Reddit said that their "site-wide policies prohibit content that promotes hate, or encourages, glorifies, incites, or calls for violence against groups of people or individuals ... We have taken action to ban the community r/donaldtrump given repeated policy violations in recent days regarding the violence at the U.S. Capitol.”',
           length: 'indefinitely',
+          date: 'Jan 8th, 2021',
+        },
+        {
+          title: 'Twitter',
+          source: 'Twitter',
+          link:
+            'https://blog.twitter.com/en_us/topics/company/2020/suspension.html',
+          image: require('@/assets/twitter.png'),
+          description:
+            'In a second statement, Twitter said "After close review of recent Tweets from the @realDonaldTrump account and the context around them — specifically how they are being received and interpreted on and off Twitter — we have permanently suspended the account due to the risk of further incitement of violence."',
+          length: 'permanently',
           date: 'Jan 8th, 2021',
         },
       ],
